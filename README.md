@@ -1,9 +1,14 @@
 # Mathematical-Calculation
 A collection of efficient scripts and solutions for mathematical problems, from basic arithmetic to advanced calculations—perfect for learners and developers
+
+
+
+
+
+
 /******************************************************************************
                 Program for Addition of Two Matrix
 *******************************************************************************/
-
 #include <stdio.h>
 
 int main()
@@ -12,15 +17,12 @@ int main()
     
     printf("Enter No. of row and no. of columnes of matrix a :");
     scanf("%d%d",&ra,&ca);
-  
-    
+ 
     printf("Enter No. of row and no. of columnes of matrix b :");
     scanf("%d%d",&rb,&cb);
-    
-    
+      
    if(ca==cb && ra==rb)
-       {
-           
+       {         
     printf("Enter Matrix a Elements :");
     for(i=0 ; i<ra ; i++)
        {
@@ -28,9 +30,7 @@ int main()
             { 
                 scanf("%d",&a[i][j]);
             }
-       }
-       
-    
+       }   
      printf("Accepted  Matrix a \n\n");
     for(i=0 ; i<ra ; i++)
        {
@@ -40,8 +40,6 @@ int main()
             }
             printf("\n");
        }
-       
-     
     printf("\nEnter Matrix b Elements :");
     for(i=0 ; i<rb ; i++)
        {
