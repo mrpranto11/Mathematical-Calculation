@@ -1,29 +1,42 @@
+// Program for Addition of Two Matrix
 
-/******************************************************************************
-                Program for Addition of Two Matrix
-*******************************************************************************/
 #include <stdio.h>
 
 int main()
+
 {
+    
     int a[5][5],b[5][5],ca,ra,cb,rb,i,j,result[5][5];
     
     printf("Enter No. of row and no. of columnes of matrix a :");
     scanf("%d%d",&ra,&ca);
+
  
     printf("Enter No. of row and no. of columnes of matrix b :");
     scanf("%d%d",&rb,&cb);
-      
+       
+   
    if(ca==cb && ra==rb)
-       {         
+       { 
+       
     printf("Enter Matrix a Elements :");
+    
     for(i=0 ; i<ra ; i++)
+    
        {
+       
          for(j=0 ; j<ca ; j++)
+    
             { 
+            
                 scanf("%d",&a[i][j]);
+                
             }
+            
        }   
+       
+
+       
      printf("Accepted  Matrix a \n\n");
     for(i=0 ; i<ra ; i++)
        {
