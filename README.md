@@ -1,98 +1,20 @@
-// Program for Addition of Two Matrix
+# Hi there 👋 I'm Pranto Sarkar!  
 
-#include <stdio.h>
+**mrpranto11/mrpranto11** is a ✨ _special_ ✨ repository because its `README.md` appears on my GitHub profile. Here's a little about me:  
 
-int main()
+- 🔭 I’m currently working on creating **Instagram Reels** on **coding topics** like HTML, CSS, and JavaScript.  
+- 🌱 I’m currently learning **CSS (advanced concepts)** and improving my **JavaScript skills**.  
+- 👯 I’m looking to collaborate on **beginner-friendly coding projects** and **web development tutorials**.  
+- 🤔 I’m looking for help with **speed coding techniques** in **CSS** and **JavaScript best practices**.  
+- 💬 Ask me about **HTML**, **basic coding concepts**, or anything related to **first-year engineering studies**.  
+- 📫 How to reach me:  
+  - **prantosarkar89755@gmail.com**  
+  - **sarkarpranto89755@gmail.com**  
+- 😄 Pronouns: He/Him.  
+- ⚡ Fun fact: I love combining **tech and creativity** to make learning **fun and engaging** for everyone!  
 
-{
-    
-    int a[5][5],b[5][5],ca,ra,cb,rb,i,j,result[5][5];
-    
-    printf("Enter No. of row and no. of columnes of matrix a :");
-    scanf("%d%d",&ra,&ca);
+---
 
- 
-    printf("Enter No. of row and no. of columnes of matrix b :");
-    scanf("%d%d",&rb,&cb);
-       
-   
-   if(ca==cb && ra==rb)
-       { 
-       
-    printf("Enter Matrix a Elements :");
-    
-    for(i=0 ; i<ra ; i++)
-    
-       {
-       
-         for(j=0 ; j<ca ; j++)
-    
-            { 
-            
-                scanf("%d",&a[i][j]);
-                
-            }
-            
-       }   
-       
-
-       
-     printf("Accepted  Matrix a \n\n");
-    for(i=0 ; i<ra ; i++)
-       {
-         for(j=0 ; j<ca ; j++)
-            {
-                printf("\t%d ",a[i][j]);
-            }
-            printf("\n");
-       }
-    printf("\nEnter Matrix b Elements :");
-    for(i=0 ; i<rb ; i++)
-       {
-         for(j=0 ; j<cb ; j++)
-            { 
-                scanf("%d",&b[i][j]);
-            }
-       }
-       
-    
-     printf("Accepted  Matrix b \n\n");
-    for(i=0 ; i<rb ; i++)
-       {
-         for(j=0 ; j<cb ; j++)
-            {
-                printf("\t%d ",b[i][j]);
-            }
-            printf("\n");
-       }
-       
-     
-        for(i=0 ; i<rb ; i++)
-              {
-               for(j=0 ; j<cb ; j++)
-                  { 
-                   result[i][j]=a[i][j] + b[i][j];
-                 }
-              }
-       
-    
-           printf("Addition of a and b Matrix\n\n");
-           for(i=0 ; i<rb ; i++)
-              { 
-               for(j=0 ; j<cb ; j++)
-                  {
-                   printf("\t%d ",result[i][j]);
-                  }
-                   printf("\n");
-              }
-       }
-       
-       else
-       {
-           printf("Addition of Matrix is not Possible ...");
-       }
-     
-    return 0;
-}
-
-
+### 🌐 Find me online  
+- **Instagram:** [mrpranto11](https://www.instagram.com/mrpranto11)  
+- **GitHub:** You're already here!
