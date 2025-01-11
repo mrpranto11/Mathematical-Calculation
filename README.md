@@ -16,5 +16,5 @@
 ---
 
 ### 🌐 Find me online  
-- **Instagram:** [mrpranto11](https://www.instagram.com/mrpranto11?igsh=aHowYXA4MjVkbW04)  
+- **Instagram:** [mr_pranto11](https://www.instagram.com/mr_pranto11?igsh=aHowYXA4MjVkbW04)  
 - **GitHub:** You're already here!
